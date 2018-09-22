@@ -26,3 +26,7 @@ git clone https://github.com/chankane/Breakout.git
 eclipse では標準で JavaFX が使えない可能性が高いです．  
 その場合は各自で設定してください  
 [JavaでJavaFX使うには](https://web-dev.hatenablog.com/entry/eclipse/install-efxclipse)
+
+## Other
+成果物は自身のgitをつかってアップすること  
+質問は issue を使うこと
