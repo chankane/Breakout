@@ -9,11 +9,18 @@ Javaを使ってブロック崩しをつくってもらいます
 - ブロックはボールが当たると消え，ボールは反射する（当然ですね）
 - バーはキーボードの矢印キーの→と←で操作できるようにする
 
+条件を満たしさえすれば後は好き勝手やっちゃってくれてOkayです  
+コードを見て，個人的にアドバイスします
+
 ## Install
 ```
 cd C:\Users\自分のユーザ名\eclipse-workspace
 git clone https://github.com/chankane/Breakout.git
 ```
+1. 上記のコマンドを実行
+1. eclipse 起動
+1. Project Explorer を右クリック
+1. import -> Existing Project into Workspace -> Select root directory -> browse.. -> Breakout を選択
 
 ## Requirement
 eclipse では標準で JavaFX が使えない可能性が高いです．  
