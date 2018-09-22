@@ -28,5 +28,5 @@ eclipse では標準で JavaFX が使えない可能性が高いです．
 [JavaでJavaFX使うには](https://web-dev.hatenablog.com/entry/eclipse/install-efxclipse)
 
 ## Other
-成果物は自身のgitをつかってアップすること  
+成果物は自身の名前のブランチを作ってアップすること  
 質問は issue を使うこと
