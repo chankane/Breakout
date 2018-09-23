@@ -59,6 +59,7 @@ public class Main extends Application {
 	private void loop() {
 		paint();
 	}
+	
 	/**
 	 * 描画専用メソッド
 	 */
