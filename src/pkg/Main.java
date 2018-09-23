@@ -18,8 +18,8 @@ public class Main extends Application {
 	private static final int BALL_RADIUS = 10;
 	private static final int BAR_SIZE = 150;
 	/* ブロックの個数 */
-	private static final int N_X = 10;
-	private static final int N_Y = 10;
+	private static final int BLOCKS_N_X = 10;
+	private static final int BLOCKS_N_Y = 10;
 	
 	private int bar_x = WINDOW_WIDTH / 2;
 	private int ball_x = WINDOW_WIDTH / 2;
@@ -41,9 +41,7 @@ public class Main extends Application {
 			
 			@Override
 			public void handle(long arg0) {
-				if(!isGameOver()) {
-					loop();
-				}
+				loop();
 			}
 		}.start();
 	}
@@ -71,9 +69,9 @@ public class Main extends Application {
 	}
 	
 	private void paintBlocks() {
-		final int BLOCK_WIDTH = WINDOW_WIDTH  / N_X;
+		final int BLOCK_WIDTH = WINDOW_WIDTH  / BLOCKS_N_X;
 		/* ２でわるのは，画面の上半分を使うという意味 */
-		final int BLOCK_HEIGHT = WINDOW_HEIGHT / N_Y / 2;
+		final int BLOCK_HEIGHT = WINDOW_HEIGHT / BLOCKS_N_Y / 2;
 		/* 画面クリア */
 		gc.clearRect(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
 		/* 塗りつぶし色を設定 */
