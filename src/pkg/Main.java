@@ -1,3 +1,6 @@
+/**
+ * @author HanakoHonda
+ */
 package pkg;
 	
 import javafx.application.Application;
