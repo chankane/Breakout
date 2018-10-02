@@ -13,6 +13,10 @@ Javaを使ってブロック崩しをつくってもらいます
 コードを見て，個人的にアドバイスします
 
 ## Install
+eclipse環境でやってもらいます  
+[こちらの記事](https://github.com/mixi-inc/AndroidTraining/wiki/A.01.-Git-リポジトリからのプロジェクトのインポート)の「リモートのリポジトリからのインポート」を参照ください.  リモートリポジトリのURLは[https://github.com/chankane/Breakout.git](https://github.com/chankane/Breakout)です
+
+もしうまくいかない場合は、下記を試して見てください
 ```
 cd C:\Users\自分のユーザ名\eclipse-workspace
 git clone https://github.com/chankane/Breakout.git
